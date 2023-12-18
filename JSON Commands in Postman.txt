@@ -1,0 +1,36 @@
+// { //localhost:3001/users/createUser //POST: create user
+//     "name": "Enis 3"
+// }
+
+//{} // localhost:3001/users/1/tasks // GET: fetch tasks of a user
+
+// { //localhost:3001/tasks/createTask
+//     "title": "Fifth Task",
+//     "description": "Update a task Manager",
+//     "status": "TO DO"
+// }
+
+// {//localhost:3001/tasks/updateTask/1 //UPDATE A TASK
+//     "tiile": "This is the Updated title of task 1",
+//     "description": "Update a task Manager",
+//     "status": "In Progress"
+// }
+
+// { } // DELETE localhost:3001/tasks/deleteTask/1
+
+// {} localhost:3001/tasks/getAllTasks -> GET: to fetch all tasks
+
+// {}// localhost:3001/tasks/assign/4/1 -> POST: assign task to user
+
+// {}// localhost:3001/tasks/user/1 -> GET: fetch tasks assigned to a user
+
+// {} //localhost:3001/tasks/user/1
+
+
+//  { // localhost:3001/tasks/status/4 -> PUT: Change status of task
+//      "status": "Done"
+//  } 
+
+//  { // localhost:3001/tasks/status -> GET: fetch task by status
+//      "status": "TO DO"
+//  } 
